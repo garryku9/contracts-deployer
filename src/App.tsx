@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ConnectButton, useActiveAccount, useActiveWalletChain } from "thirdweb/react";
 import { getContract, readContract, prepareContractCall, sendTransaction, toEther, toWei } from "thirdweb";
-import thirdwebIcon from "./logo.png";
+import thirdwebIcon from "./thirdweb.svg";
 import { client } from "./client";
 
 const FACTORY_ADDRESS = import.meta.env.VITE_FACTORY_ADDRESS as string ;
