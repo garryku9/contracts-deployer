@@ -42,7 +42,7 @@ function Header() {
       />
 
       <h1 className="text-2xl md:text-5xl font-bold tracking-tighter mb-4 text-zinc-100">
-        Kaymr : Contract Deployer
+        Contract Deployer
       </h1>
 
       <p className="text-zinc-300 text-base text-center">
